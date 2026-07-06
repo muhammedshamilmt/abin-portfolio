@@ -25,7 +25,8 @@ export function Navbar() {
         </Link>
 
         {/* Mega Menu Dropdown */}
-        <div className="group py-4">
+        {/* <div className="group py-4"> */}
+        <div className=" py-4">
           <button className="flex items-center text-muted-foreground hover:text-foreground transition-colors pb-1 outline-none">
             Services <ChevronDown className="ml-1 w-3.5 h-3.5 group-hover:rotate-180 transition-transform duration-200" />
           </button>
