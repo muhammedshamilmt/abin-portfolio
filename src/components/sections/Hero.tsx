@@ -35,9 +35,9 @@ export function Hero() {
             <Link href="/book" className="bg-foreground text-background px-8 py-4 text-sm font-medium hover:bg-foreground/90 transition-colors flex items-center w-fit shadow-lg">
               Book Consultation
             </Link>
-            <button className="bg-transparent border border-border text-foreground px-8 py-4 text-sm font-medium hover:bg-border/50 transition-colors flex items-center w-fit">
+            <Link href="/book" className="bg-transparent border border-border text-foreground px-8 py-4 text-sm font-medium hover:bg-border/50 transition-colors flex items-center w-fit">
               Contact Me
-            </button>
+            </Link>
           </div>
         </div>
 

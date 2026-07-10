@@ -21,9 +21,9 @@ export function Footer() {
             I am always open to conversations about product, design, and technology - especially the kind that don't have an obvious answer yet. I read every message.
           </p>
 
-          <button className="bg-foreground text-background px-6 py-3.5 text-sm font-medium hover:bg-foreground/90 transition-colors flex items-center w-fit mb-10">
+          <Link href="/book" className="bg-foreground text-background px-6 py-3.5 text-sm font-medium hover:bg-foreground/90 transition-colors flex items-center w-fit mb-10">
             Get in touch <span className="ml-2 text-lg">→</span>
-          </button>
+          </Link>
 
           <div className="flex items-center space-x-6 text-[13px] font-medium">
             <Link href="tel:+917593063135" className="border-b border-border pb-0.5 hover:border-foreground transition-colors inline-flex items-center">
@@ -55,7 +55,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="lg:col-span-3">
+          {/* <div className="lg:col-span-3">
             <div className="text-[10px] uppercase tracking-widest text-muted-text font-mono mb-6">
               WORK
             </div>
@@ -87,7 +87,7 @@ export function Footer() {
               <li><Link href="#" className="hover:opacity-70 transition-opacity">Books</Link></li>
               <li><Link href="#" className="hover:opacity-70 transition-opacity">Events</Link></li>
             </ul>
-          </div>
+          </div> */}
 
         </div>
       </div>
