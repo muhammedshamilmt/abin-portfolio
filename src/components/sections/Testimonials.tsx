@@ -23,7 +23,7 @@ export function Testimonials() {
   ];
 
   return (
-    <section className="w-full mx-auto px-6 py-24 lg:py-32 border-t border-border/50">
+    <section id="testimonials" className="w-full mx-auto px-6 py-24 lg:py-32 border-t border-border/50">
       <div className="mb-16 md:text-center flex flex-col md:items-center">
         <div className="text-[10px] uppercase tracking-widest text-muted-text font-mono mb-4">
           05 / CLIENT SUCCESS

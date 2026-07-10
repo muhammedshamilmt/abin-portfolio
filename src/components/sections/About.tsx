@@ -11,7 +11,7 @@ export function About() {
   ];
 
   return (
-    <section className="w-full mx-auto px-6 py-24 lg:py-32 border-t border-border/50">
+    <section id="about" className="w-full mx-auto px-6 py-24 lg:py-32 border-t border-border/50">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
 
         {/* Left: Image with Overlay */}

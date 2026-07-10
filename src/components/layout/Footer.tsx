@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="w-full">
+    <footer id="contact" className="w-full">
       {/* CTA Section */}
       <div className="w-full mx-auto px-6 py-24 md:py-32 flex flex-col lg:flex-row justify-between gap-16 lg:gap-8 bg-background">
         <div className="lg:w-1/2">

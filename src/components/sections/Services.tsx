@@ -26,7 +26,7 @@ export function Services() {
   ];
 
   return (
-    <section className="w-full mx-auto px-6 py-24 lg:py-32">
+    <section id="services" className="w-full mx-auto px-6 py-24 lg:py-32">
       <div className="mb-16">
         <div className="text-[10px] uppercase tracking-widest text-muted-text font-mono flex space-x-6 mb-4">
           <span>01 / EXPERTISE</span>

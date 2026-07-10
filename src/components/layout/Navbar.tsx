@@ -1,9 +1,14 @@
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
-import { ChevronDown, ArrowRight, ShieldCheck, HeartPulse, Landmark, TrendingUp } from "lucide-react";
+import { ChevronDown, ArrowRight, ShieldCheck, HeartPulse, Landmark, TrendingUp, Menu, X } from "lucide-react";
 
 export function Navbar() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
-    <nav className="flex items-center justify-between px-6 py-1 w-full mx-auto border-b border-border bg-background relative z-50">
+    <nav className="flex items-center justify-between px-6 py-4 lg:py-1 w-full mx-auto border-b border-border bg-background relative z-50">
       {/* Left: Logo & Name */}
       <div className="flex items-center space-x-3">
         <div className="w-10 h-10 rounded bg-foreground flex items-center justify-center overflow-hidden">
@@ -17,20 +22,20 @@ export function Navbar() {
 
       {/* Middle: Links */}
       <div className="hidden lg:flex items-center space-x-8 text-[13px] font-medium">
-        <Link href="#" className="relative text-foreground pb-1 border-b-2 border-accent-orange">
+        <Link href="/" className="relative text-foreground pb-1 border-b-2 border-accent-orange">
           Home
         </Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
+        <Link href="/#about" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
           About
         </Link>
 
         {/* Mega Menu Dropdown */}
         {/* <div className="group py-4"> */}
-        <div className=" py-4">
-          <button className="flex items-center text-muted-foreground hover:text-foreground transition-colors pb-1 outline-none">
+        <div className="py-4">
+          <Link href="/#services" className="flex items-center text-muted-foreground hover:text-foreground transition-colors pb-1 outline-none">
             Services
             {/* <ChevronDown className="ml-1 w-3.5 h-3.5 group-hover:rotate-180 transition-transform duration-200" /> */}
-          </button>
+          </Link>
 
           <div className="absolute top-full left-0 w-full bg-background border-b border-border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
             <div className="max-w-[1600px] mx-auto p-8 flex">
@@ -43,11 +48,11 @@ export function Navbar() {
                     <span>Loans</span>
                   </div>
                   <ul className="space-y-3 text-[13px] text-muted-foreground">
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Home Loan</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Personal Loan</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Business Loan</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Vehicle Loan</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Project Loan</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Home Loan</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Personal Loan</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Business Loan</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Vehicle Loan</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Project Loan</Link></li>
                   </ul>
                 </div>
 
@@ -58,10 +63,10 @@ export function Navbar() {
                     <span>Life Insurance</span>
                   </div>
                   <ul className="space-y-3 text-[13px] text-muted-foreground">
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Term Insurance</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Endowment Plans</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">ULIP</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Retirement Plans</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Term Insurance</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Endowment Plans</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">ULIP</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Retirement Plans</Link></li>
                   </ul>
                 </div>
 
@@ -72,9 +77,9 @@ export function Navbar() {
                     <span>Health Insurance</span>
                   </div>
                   <ul className="space-y-3 text-[13px] text-muted-foreground">
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Family Plans</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Senior Citizen Plans</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Critical Illness</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Family Plans</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Senior Citizen Plans</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Critical Illness</Link></li>
                   </ul>
                 </div>
 
@@ -85,10 +90,10 @@ export function Navbar() {
                     <span>Mutual Funds</span>
                   </div>
                   <ul className="space-y-3 text-[13px] text-muted-foreground">
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">SIP Planning</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Lump Sum Investment</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Goal-Based Investing</Link></li>
-                    <li><Link href="#" className="hover:text-foreground transition-colors block">Wealth Creation</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">SIP Planning</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Lump Sum Investment</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Goal-Based Investing</Link></li>
+                    <li><Link href="/#services" className="hover:text-foreground transition-colors block">Wealth Creation</Link></li>
                   </ul>
                 </div>
               </div>
@@ -108,20 +113,76 @@ export function Navbar() {
             </div>
           </div>
         </div>
-        <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
+        <Link href="/#testimonials" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
           Testimonials
         </Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
+        <Link href="/#contact" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
           Contact
         </Link>
       </div>
 
-      {/* Right: Actions */}
-      <div className="flex items-center">
+      {/* Right: Actions (Desktop) */}
+      <div className="hidden lg:flex items-center">
         <Link href="/book" className="bg-accent-orange text-white px-5 py-2.5 text-[13px] font-medium hover:bg-accent-orange/90 transition-colors flex items-center shadow-sm">
           Book Consultation <ArrowRight className="ml-1.5 w-4 h-4" />
         </Link>
       </div>
+
+      {/* Mobile Menu Toggle */}
+      <button
+        className="lg:hidden flex items-center justify-center p-2 text-foreground"
+        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+      >
+        {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+      </button>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="absolute top-full left-0 w-full bg-background border-b border-border shadow-xl z-50 lg:hidden flex flex-col px-6 py-8 space-y-6 max-h-[80vh] overflow-y-auto">
+          <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-foreground">
+            Home
+          </Link>
+          <Link href="/#about" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-muted-foreground hover:text-foreground">
+            About
+          </Link>
+
+          <div className="space-y-4 pt-2 pb-4 border-y border-border/50">
+            <h4 className="text-xs uppercase tracking-widest text-muted-text font-mono mb-4">Our Services</h4>
+
+            <div className="space-y-3 pl-2">
+              <Link href="/#services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-sm text-foreground">
+                <Landmark className="w-4 h-4 text-accent-orange mr-3" /> Loans
+              </Link>
+              <Link href="/#services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-sm text-foreground">
+                <ShieldCheck className="w-4 h-4 text-accent-orange mr-3" /> Life Insurance
+              </Link>
+              <Link href="/#services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-sm text-foreground">
+                <HeartPulse className="w-4 h-4 text-accent-orange mr-3" /> Health Insurance
+              </Link>
+              <Link href="/#services" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-sm text-foreground">
+                <TrendingUp className="w-4 h-4 text-accent-orange mr-3" /> Mutual Funds
+              </Link>
+            </div>
+          </div>
+
+          <Link href="/#testimonials" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-muted-foreground hover:text-foreground">
+            Testimonials
+          </Link>
+          <Link href="/#contact" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-muted-foreground hover:text-foreground">
+            Contact
+          </Link>
+
+          <div className="pt-6">
+            <Link
+              href="/book"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="bg-accent-orange text-white px-5 py-4 w-full text-center text-sm font-medium hover:bg-accent-orange/90 transition-colors flex justify-center items-center shadow-sm"
+            >
+              Book Consultation <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
