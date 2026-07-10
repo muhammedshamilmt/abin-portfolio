@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Hero() {
   return (
     <main className="w-full mx-auto px-6 min-h-[80vh] flex items-center border-b border-border pt-8 pb-16">
@@ -30,9 +32,9 @@ export function Hero() {
           </p>
 
           <div className="flex items-center space-x-4">
-            <button className="bg-foreground text-background px-8 py-4 text-sm font-medium hover:bg-foreground/90 transition-colors flex items-center w-fit shadow-lg">
+            <Link href="/book" className="bg-foreground text-background px-8 py-4 text-sm font-medium hover:bg-foreground/90 transition-colors flex items-center w-fit shadow-lg">
               Book Consultation
-            </button>
+            </Link>
             <button className="bg-transparent border border-border text-foreground px-8 py-4 text-sm font-medium hover:bg-border/50 transition-colors flex items-center w-fit">
               Contact Me
             </button>

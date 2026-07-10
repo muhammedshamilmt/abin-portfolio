@@ -28,7 +28,8 @@ export function Navbar() {
         {/* <div className="group py-4"> */}
         <div className=" py-4">
           <button className="flex items-center text-muted-foreground hover:text-foreground transition-colors pb-1 outline-none">
-            Services <ChevronDown className="ml-1 w-3.5 h-3.5 group-hover:rotate-180 transition-transform duration-200" />
+            Services
+            {/* <ChevronDown className="ml-1 w-3.5 h-3.5 group-hover:rotate-180 transition-transform duration-200" /> */}
           </button>
 
           <div className="absolute top-full left-0 w-full bg-background border-b border-border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
@@ -107,13 +108,6 @@ export function Navbar() {
             </div>
           </div>
         </div>
-
-        <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
-          Blog
-        </Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
-          Resources
-        </Link>
         <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors pb-1">
           Testimonials
         </Link>
@@ -124,9 +118,9 @@ export function Navbar() {
 
       {/* Right: Actions */}
       <div className="flex items-center">
-        <button className="bg-accent-orange text-white px-5 py-2.5 text-[13px] font-medium hover:bg-accent-orange/90 transition-colors flex items-center shadow-sm">
+        <Link href="/book" className="bg-accent-orange text-white px-5 py-2.5 text-[13px] font-medium hover:bg-accent-orange/90 transition-colors flex items-center shadow-sm">
           Book Consultation <ArrowRight className="ml-1.5 w-4 h-4" />
-        </button>
+        </Link>
       </div>
     </nav>
   );
