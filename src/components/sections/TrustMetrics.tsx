@@ -15,12 +15,12 @@ export function TrustMetrics() {
           </div>
 
           <div className="flex flex-col items-center justify-center text-center pt-8 md:pt-0">
-            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">₹50 Cr+</div>
+            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">₹1 Cr+</div>
             <div className="text-[11px] uppercase tracking-widest font-mono text-background/70">Assets Managed</div>
           </div>
 
           <div className="flex flex-col items-center justify-center text-center pt-8 md:pt-0">
-            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">1000+</div>
+            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">100+</div>
             <div className="text-[11px] uppercase tracking-widest font-mono text-background/70">Financial Plans</div>
           </div>
 

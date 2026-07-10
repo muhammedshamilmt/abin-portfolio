@@ -4,8 +4,8 @@ export function Testimonials() {
   const reviews = [
     {
       text: "The financial restructuring plan they created for me was nothing short of brilliant. My loans are consolidated and I finally see a clear path to being debt-free.",
-      author: "Priya Sharma",
-      role: "Business Owner",
+      author: "Akhil",
+      role: "USA",
       rating: 5
     },
     {

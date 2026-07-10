@@ -20,7 +20,7 @@ export function About() {
           <div className="absolute inset-0 bg-secondary/50 -translate-x-4 -translate-y-4 rounded-sm"></div>
 
           <img
-            src="https://aanandmadhav.com/_next/image?url=%2Fimages%2FLife%2FTravel%2Feurope%2Farticle-cover.png&w=3840&q=75"
+            src="/images/image-2.jpeg"
             alt="Consultant Portrait"
             className="w-full h-[600px] object-cover relative z-10  transition-all duration-700"
           />

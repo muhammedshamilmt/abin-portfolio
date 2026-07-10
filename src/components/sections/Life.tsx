@@ -14,7 +14,7 @@ export function Life() {
         {/* Left: Image with Badge */}
         <div className="relative w-full aspect-[4/3] md:aspect-[16/9] lg:aspect-[4/3] bg-secondary/50 border border-border flex flex-col justify-end overflow-hidden group">
           <img
-            src="https://aanandmadhav.com/_next/image?url=%2Fimages%2FLife%2FTravel%2Feurope%2Farticle-cover.png&w=3840&q=75"
+            src="/images/image-3.jpeg"
             alt="Life travel cover"
             className="absolute inset-0 w-full h-full object-cover"
           />

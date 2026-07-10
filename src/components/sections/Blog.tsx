@@ -9,7 +9,7 @@ export function Blog() {
       date: "OCT 2026",
       title: "Why SIPs are the Best Strategy During Market Volatility",
       description: "Understanding how rupee cost averaging works in your favor when the market takes a dip.",
-      image: "https://aanandmadhav.com/_next/image?url=%2Fimages%2FLife%2FTravel%2Feurope%2Farticle-cover.png&w=3840&q=75"
+      image: "/images/image-1.jpeg"
     },
     {
       category: "PERSONAL FINANCE",
@@ -17,7 +17,7 @@ export function Blog() {
       date: "SEP 2026",
       title: "Term Insurance vs. Endowment Plans: What You Should Know",
       description: "A deep dive into why keeping insurance and investment separate is usually the smartest financial move.",
-      image: "https://aanandmadhav.com/_next/image?url=%2Fimages%2FLife%2FTravel%2Feurope%2Farticle-cover.png&w=3840&q=75"
+      image: "/images/image-2.jpeg"
     }
   ];
 

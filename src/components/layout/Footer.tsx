@@ -26,6 +26,9 @@ export function Footer() {
           </button>
 
           <div className="flex items-center space-x-6 text-[13px] font-medium">
+            <Link href="tel:+917593063135" className="border-b border-border pb-0.5 hover:border-foreground transition-colors inline-flex items-center">
+              Phone: +91 75 93 06 31 35 <ArrowUpRight className="ml-1 w-3.5 h-3.5" />
+            </Link>
             <Link href="#" className="border-b border-border pb-0.5 hover:border-foreground transition-colors inline-flex items-center">
               Email <ArrowUpRight className="ml-1 w-3.5 h-3.5" />
             </Link>
@@ -45,10 +48,10 @@ export function Footer() {
 
           <div className="lg:col-span-5">
             <div className="text-[10px] uppercase tracking-widest text-muted-text font-mono mb-4">
-              © 2026 AANAND MADHAV
+              © 2026 SB ABIN
             </div>
             <p className="text-[13px] text-muted-text">
-              Built in New Delhi. Product, design, and code.
+              Based in Trivandrum, Kerala.
             </p>
           </div>
 

@@ -20,13 +20,13 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-text max-w-[500px] mb-10 leading-relaxed font-light flex items-center space-x-2">
+            <span>Health Insurance</span>
+            <span className="text-accent-orange font-bold">·</span>
+            <span>Life Insurance</span>
+            <span className="text-accent-orange font-bold">·</span>
             <span>Mutual Funds</span>
             <span className="text-accent-orange font-bold">·</span>
-            <span>Insurance</span>
-            <span className="text-accent-orange font-bold">·</span>
             <span>Loans</span>
-            <span className="text-accent-orange font-bold">·</span>
-            <span>Planning</span>
           </p>
 
           <div className="flex items-center space-x-4">
