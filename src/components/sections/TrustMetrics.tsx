@@ -5,7 +5,7 @@ export function TrustMetrics() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 divide-y md:divide-y-0 md:divide-x divide-background/20">
 
           <div className="flex flex-col items-center justify-center text-center pt-8 md:pt-0">
-            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">5+</div>
+            <div className="text-4xl md:text-5xl font-bold mb-2  text-accent-orange">6+</div>
             <div className="text-[11px] uppercase tracking-widest font-mono text-background/70">Years Experience</div>
           </div>
 

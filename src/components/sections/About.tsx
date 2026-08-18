@@ -6,8 +6,8 @@ export function About() {
     "Mutual Fund Distributor",
     "NISM Certified",
     "Insurance Advisor",
-    "Financial Planning Expert",
-    "10+ Years Experience"
+    "Certified Financial Planner",
+    "6+ Years Experience"
   ];
 
   return (

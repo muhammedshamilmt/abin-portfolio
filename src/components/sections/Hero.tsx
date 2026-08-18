@@ -65,8 +65,8 @@ export function Hero() {
                 <span className="text-accent-orange  font-bold text-xl">FC</span>
               </div>
               <div>
-                <div className="font-semibold text-sm mb-0.5">Certified Advisor</div>
-                <div className="text-[10px] text-muted-text font-mono uppercase tracking-widest mb-2">SEBI Registered</div>
+                <div className="font-semibold text-sm mb-0.5">SB Abin</div>
+                <div className="text-[10px] text-muted-text font-mono uppercase tracking-widest mb-2">Certified Advisor · 6+ Yrs</div>
                 <div className="flex items-center space-x-1">
                   <div className="w-2 h-2 rounded-full bg-green-500"></div>
                   <span className="text-xs text-muted-text">Available for consulting</span>

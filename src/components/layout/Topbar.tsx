@@ -13,13 +13,13 @@ export function Topbar() {
       <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row justify-between items-center text-[11px] font-mono uppercase tracking-widest">
         {/* Left: Contact Info */}
         <div className="flex items-center space-x-6 mb-2 md:mb-0">
-          <Link href="tel:+917593063135" className="flex items-center hover:text-accent-orange transition-colors">
+          <Link href="tel:+918089708559" className="flex items-center hover:text-accent-orange transition-colors">
             <Phone className="w-3 h-3 mr-2" />
-            +91 75 93 06 31 35
+            +91 80 89 70 85 59
           </Link>
-          <Link href="mailto:hello@financialconsultant.com" className="flex items-center hover:text-accent-orange transition-colors">
+          <Link href="mailto:abinsb2026@gmail.com" className="flex items-center hover:text-accent-orange transition-colors">
             <Mail className="w-3 h-3 mr-2" />
-            hello@financialconsultant.com
+            abinsb2026@gmail.com
           </Link>
           <span className="hidden lg:flex items-center text-muted-foreground">
             <MapPin className="w-3 h-3 mr-2" />
