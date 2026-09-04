@@ -15,9 +15,14 @@ import { Footer } from "@/components/layout/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground selection:bg-accent-orange selection:text-white ">
-      <Topbar />
+      <div className="sticky top-0 z-50 w-full bg-background flex flex-col">
+        <Topbar />
+        <div className="max-w-[1600px] mx-auto w-full">
+          <Navbar />
+        </div>
+      </div>
       <div className="flex flex-col max-w-[1600px] mx-auto">
-        <ScrollReveal><Navbar /></ScrollReveal>
+
         <ScrollReveal delay={0.2}><Hero /></ScrollReveal>
         <ScrollReveal><TrustMetrics /></ScrollReveal>
         <ScrollReveal><Services /></ScrollReveal>

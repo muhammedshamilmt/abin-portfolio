@@ -58,7 +58,7 @@ export default function BookPage() {
                   <Phone className="w-5 h-5 text-accent-orange mt-0.5" />
                   <div>
                     <h3 className="font-semibold text-foreground text-sm">Phone</h3>
-                    <p className="text-[13px] text-muted-text mt-1">+91 75 93 06 31 35</p>
+                    <p className="text-[13px] text-muted-text mt-1">+91 80 89 70 85 59</p>
                   </div>
                 </div>
                 
@@ -66,7 +66,7 @@ export default function BookPage() {
                   <Mail className="w-5 h-5 text-accent-orange mt-0.5" />
                   <div>
                     <h3 className="font-semibold text-foreground text-sm">Email</h3>
-                    <p className="text-[13px] text-muted-text mt-1">hello@financialconsultant.com</p>
+                    <p className="text-[13px] text-muted-text mt-1">abinsb2026@gmail.com</p>
                   </div>
                 </div>
 

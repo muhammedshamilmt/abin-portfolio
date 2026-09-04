@@ -32,9 +32,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${playfair.variable} ${geistMono.variable} h-full antialiased overflow-x-hidden bg-foreground`}
     >
-      <body className="min-h-full flex flex-col font-sans font-medium">
+      <body className="min-h-full flex flex-col font-sans font-medium overflow-x-clip">
         <main className="flex-1">
           {children}
         </main>

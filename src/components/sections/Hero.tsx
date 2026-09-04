@@ -51,11 +51,11 @@ export function Hero() {
             {/* Soft gradient background for the image */}
             {/* <div className="absolute inset-0 bg-gradient-to-tr from-[#f4f0e6] to-white/50 rounded-tl-full rounded-tr-full scale-90 -z-10"></div> */}
 
-            <img
+            {/* <img
               src="https://aanandmadhav.com/_next/image?url=%2Fimages%2Faanand-avatar.webp&w=1920&q=75"
               alt="Financial Consultant Portrait"
               className="w-full max-w-[450px] h-auto object-contain filter drop-shadow-2xl relative z-0"
-            />
+            /> */}
           </div>
 
           {/* Floating Identity Card */}
@@ -66,7 +66,7 @@ export function Hero() {
               </div>
               <div>
                 <div className="font-semibold text-sm mb-0.5">SB Abin</div>
-                <div className="text-[10px] text-muted-text font-mono uppercase tracking-widest mb-2">Certified Advisor · 6+ Yrs</div>
+                <div className="text-[10px] text-muted-text font-mono uppercase tracking-widest mb-2">6 Years Exp</div>
                 <div className="flex items-center space-x-1">
                   <div className="w-2 h-2 rounded-full bg-green-500"></div>
                   <span className="text-xs text-muted-text">Available for consulting</span>

@@ -11,7 +11,7 @@ export function SelectedWork() {
             <span>SELECTED WORK</span>
           </div>
           <h2 className="text-4xl md:text-[44px] font-medium tracking-tight text-foreground max-w-3xl leading-[1.15]">
-            Nine years of making software people actually use. <span className="text-muted-text">Three that say the most.</span>
+            Six years of helping people achieve financial goals. <span className="text-muted-text">A few stories that say the most.</span>
           </h2>
         </div>
         <div className="shrink-0">

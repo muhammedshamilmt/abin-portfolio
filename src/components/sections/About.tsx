@@ -7,7 +7,7 @@ export function About() {
     "NISM Certified",
     "Insurance Advisor",
     "Certified Financial Planner",
-    "6+ Years Experience"
+    "6 Years Experience"
   ];
 
   return (
@@ -26,7 +26,7 @@ export function About() {
           />
 
           {/* Overlay Name Card */}
-          <div className="absolute -bottom-8 -right-8 md:right-8 bg-background border border-border p-6 shadow-xl z-20 w-[280px]">
+          <div className="absolute -bottom-8 right-0 sm:-right-8 md:right-8 bg-background border border-border p-6 shadow-xl z-20 w-[280px]">
             <h3 className=" text-2xl font-bold mb-1">SB Abin</h3>
             <div className="text-[10px] text-accent-orange font-mono uppercase tracking-widest mb-4">Lead Financial Strategist</div>
             <p className="text-[12px] text-muted-text italic leading-relaxed">
